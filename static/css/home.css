@@ -1,0 +1,59 @@
+.image-bg {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url('/static/images/bg11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.image-bg:before {
+    z-index: 1;
+    content: '';
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000000, #000000);
+    opacity: .5;
+}
+.home-head {
+    z-index: 9999 !important;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 800px;
+    margin: 0px auto;
+    position: relative;
+    top: 200px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.18);
+}
+.home-head .bg-header {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+.home-head .bg-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-bg2 {
+    background-color: rgb(242,247,250);
+    clear: both;
+    width: 100%;
+    height: 700px;
+    display: block;
+}

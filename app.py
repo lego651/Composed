@@ -43,10 +43,15 @@ def load_global_model():
 print("* Loading model and global vars...")
 load_global_model()
 
-# Route to Home page _GET
+# Route to Main page _GET
 @app.route("/")
-def home():
+def main():
     return render_template("index.html")
+
+# Route to Home page _GET
+@app.route("/home")
+def home():
+    return render_template("home.html")
 
 # Route to Demo page _GET
 @app.route("/demo")
