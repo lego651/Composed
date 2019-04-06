@@ -38,6 +38,26 @@
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.18);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.18);
 }
+.home-head .navs {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+.home-head .navs .logo {
+    height: 50px;
+}
+.home-head .navs .logo img {
+    height: 100%;
+}
+.home-head .navs .nav {
+    margin-left: 50px;
+}
+.home-head .navs .nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .home-head .bg-header {
     width: 600px;
     height: 700px;
